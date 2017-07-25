@@ -1,0 +1,300 @@
+
+
+/*header*/
+body {
+    background: #f5f5f5;
+}
+.wrap {
+    min-width: 300px;
+    max-width: 640px;
+    margin: 0 auto;
+    height: 1000px;
+}
+.wrap header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+.wrap header .header-box {
+    min-width: 300px;
+    max-width: 640px;
+    margin: 0 auto;
+    height: 40px;
+    background: rgba(201,21,35,0);
+    position: relative;
+}
+.wrap header .header-box .icon-logo {
+    display: block;
+    width: 60px;
+    height: 36px;
+    background-position: 0 -103px;
+    position: absolute;
+    top: 4px;
+    left: 10px;
+}
+.wrap header .header-box form {
+    padding-left: 75px;
+    padding-right: 60px;
+    position: relative;
+
+}
+.wrap header .header-box form input {
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    border-radius: 15px;
+    padding-left: 40px;
+
+
+}
+.wrap header .header-box form .icon-search {
+    width: 20px;
+    height: 20px;
+    background-position: -60px -109px;
+    position: absolute;
+    top: 10px;
+    left: 85px;
+
+}
+.wrap header .header-box .login {
+    display: block;
+    width: 50px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    top: 0;
+    right: 5px;
+    font-size: 15px;
+    color: #fff;
+}
+
+/*banner*/
+.index-banner {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+
+}
+.index-banner ul {
+    width: 800%;
+    overflow: hidden;
+}
+.index-banner ul li {
+    float: left;
+    width: 12.5%;
+}
+.index-banner ul li img {
+    width: 100%;
+}
+.index-banner ol {
+    width: 88px;
+    height: 7px;
+    position: absolute;
+    left: 50%;
+    margin-left: -44px;
+    bottom: 5px;
+    overflow: hidden;
+
+}
+.index-banner ol li {
+    float: left;
+    width: 7px;
+    height: 7px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin: 0 2px;
+}
+.index-banner ol li.active {
+    background: #fff;
+    border: none;
+}
+
+ /*nav*/
+.wrap .nav {
+    width: 100%;
+    background: #fff;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.wrap .nav ul {
+    width: 100%;
+    padding: 10px;
+
+    overflow: hidden;
+}
+
+.wrap .nav ul li {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.wrap .nav ul li img {
+    width: 40px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.wrap .nav ul li span {
+    font-size: 12px;
+    color: #666;
+}
+
+/*secKill*/
+.seckill {
+    margin: 0 5px;
+    box-shadow: 0 0 1px 1px #e0e0e0;
+}
+.seckill section {
+    background: #fff;
+}
+.seckill .seckill-top {
+    width: 100%;
+    height: 32px;
+    overflow: hidden;
+}
+.seckill .seckill-top h3 {
+    font-size: 14px;
+    font-weight: normal;
+    color: #d8505c;
+    position: relative;
+    padding-left: 30px;
+    float: left;
+    line-height: 32px;
+    margin-right: 10px;
+}
+.seckill .seckill-top h3::before {
+    content: "";
+    width: 16px;
+    height: 20px;
+    background: url("../images/seckill-icon.png");
+    position: absolute;
+    top: 6px;
+    left: 10px;
+    background-size: 16px 20px;
+}
+.seckill .seckill-top p {
+    float: left;
+    margin-top: 8px;
+}
+.seckill .seckill-top p span {
+    float: left;
+    width: 16px;
+    height: 16px;
+    background: #323232;
+    color: #fff;
+    text-align: center;
+    line-height: 16px;
+    font-size: 12px;
+    margin: 0 2px;
+}
+.seckill .seckill-top p .colon {
+    background: #fff;
+    color: #323232;
+    font-size: 16px;
+    width: 2px;
+    height: 2px;
+}
+.seckill .seckill-top a {
+    float: right;
+    line-height: 32px;
+    margin-right: 10px;
+    font-size: 13px;
+    color: #666;
+}
+.seckill .seckill-main {
+    width: 100%;
+    overflow: hidden;
+}
+.seckill .seckill-main dl {
+    float: left;
+    width: 33.333333%;
+    text-align: center;
+    margin: 10px 0;
+}
+.seckill .seckill-main dl dt {
+    border-left: 1px solid #e0e0e0;
+}
+.seckill .seckill-main dl:nth-child(1) dt {
+    border: none;
+}
+.seckill .seckill-main dl img {
+    width: 60%;
+    margin: 0 auto;
+}
+.seckill .seckill-main dl dd {
+    font-size: 13px;
+    color: #d8505c;
+}
+.seckill .seckill-main dl dd:nth-of-type(2){
+    color: #888888;
+    text-decoration: line-through;
+    margin-top: 2px;
+}
+
+/*shopping*/
+.shopping {
+    margin: 0 5px;
+    box-shadow: 0 0 1px 1px #e0e0e0;
+    margin-top: 10px;
+}
+.shopping  .shopping-box {
+    background: #fff;
+}
+.shopping  .shopping-box h4 {
+    height: 32px;
+    line-height: 32px;
+    font-weight: normal;
+    color: #666;
+    font-size: 14px;
+    position: relative;
+    padding-left: 18px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.shopping .shopping-box h4:before {
+    content:'';
+    width: 3px;
+    height: 12px;
+    background: #d8505c;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.shopping .content {
+    overflow: hidden;
+    width: 100%;
+}
+.shopping .content a img {
+    width: 100%;
+}
+.shopping .content .content-left {
+    width: 50%;
+    float: left;
+    border-right: 1px solid #e0e0e0;
+}
+.shopping .content .content-right {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.shopping .content .content-right a {
+    height: 50%;
+    display: block;
+}
+.shopping .content .content-right a:nth-child(1) {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.activity .content .content-right a:nth-child(1) {
+    border-bottom: 1px solid #fff
+}
+.activity .content .content-left {
+    border-left: 1px solid #fff;
+    border-right: none;
+}
+
+
+
+
+
